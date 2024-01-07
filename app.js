@@ -4,4 +4,7 @@
 
 
 
-
+function toggleNavbar() {
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('show');
+}
