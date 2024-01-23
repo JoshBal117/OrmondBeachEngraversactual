@@ -9,32 +9,59 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
     </head>
 
     <body>
-        <section id="header">
-            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
-            Ormond Custom Engravers
-           <nav>
-                <div class="navbar">
-                    <div class="menu-icon" onclick="toggleNavbar()">☰</div>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="blog.html">Reviews</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><span class="material-symbols-outlined">
-                            shopping_cart_checkout
-                            </span></li>
+        <header>         
+            <nav class="nav">
+                <a href="/" class="logo">Ormond Custom Engravers</a>
+        
+                <div class="hamburger">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </div>
+        
+                <div class="nav__link hide">
+                  <a href="index.html">home</a>
+                  <a href="about.html">about</a>
+                  <a href="shop.html">Shop</a>
+                  <a href="contact.html">contact</a>
+                  <a href="blog.html">blog</a>
+                </div>
+              </nav>
+        </header>
+           
+
+        <section>
+            <h1>The kind of <strong>quality</strong> & <strong>dedication</strong> you can only expect from the best.</h1>
+            <p>Donec facilisis tempus arcu, a hendrerit ipsum. Suspendisse a neque eget nisi pharetra cursus. Proin urna justo, ullamcorper eget leo a, laoreet lobortis mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed non molestie tellus, quis consectetur tellus. Nullam vitae risus luctus, dictum tellus vel, eleifend odio. Phasellus dapibus enim eget vehicula sodales. Nam elementum est fringilla, aliquet tortor eget, luctus dui. Nullam ut interdum lorem, at dictum magna. Nulla congue, mauris non malesuada faucibus, libero urna mattis sapien, in venenatis dui tellus id massa. Fusce pulvinar egestas massa, eget suscipit nisi adipiscing id. Ut vehicula urna id cursus mattis.</p>
+            <p>Donec facilisis tempus arcu, a hendrerit ipsum. Suspendisse a neque eget nisi pharetra cursus. Proin urna justo, ullamcorper eget leo a, laoreet lobortis mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed non molestie tellus, quis consectetur tellus. Nullam vitae risus luctus, dictum tellus vel, eleifend odio. Phasellus dapibus enim eget vehicula sodales. Nam elementum est fringilla, aliquet tortor eget, luctus dui. Nullam ut interdum lorem, at dictum magna. Nulla congue, mauris non malesuada faucibus, libero urna mattis sapien, in venenatis dui tellus id massa. Fusce pulvinar egestas massa, eget suscipit nisi adipiscing id. Ut vehicula urna id cursus mattis.</p>
+          </section>
+
+        <section class="product">
+            <h2 class="product-catagory">OUR ENGRAVINGS</h2>
+            <div class="gallery-wrap">
+              
+                <div class="product-gallery">
+                    <div>
+                       <span><img src="images/engraving/place holder 1 beta.jpg"></span>
+                       <span><img src="images/engraving/place holder 2 beta.jpg"></span>
+                       <span><img src="images/engraving/place holder 3 beta.jpg"></span>
                     </div>
-                
-           </nav>
-       
-           <div class="slider">
-               <div class="'sliderItem">
-                    <img src="" alt=""  class='sliderImg'>
-               </div>
-           </div>
+                    <div>
+                       <span><img src="images/engraving/place holder 4 beta.jpg"></span>
+                    </div>
+               </div>    
+               
+            </div>
+          
+            
+        </section>
+
+
+
 
         <script src="app.js"></script>
     </body>
