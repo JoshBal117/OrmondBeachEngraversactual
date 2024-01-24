@@ -89,3 +89,40 @@ section{
     display: none;
   }
 }
+
+button{
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: none;
+  transition: all .3s ease-in-out;
+}
+
+
+
+
+
+.item {
+  scroll-snap-align: center;
+}
+
+.item-list{
+  max-width: 950px;
+  width: 70vw;
+  display: flex;
+  object-fit: cover;
+  gap: 48px;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+
+}
+
+.item-list::-webkit-scrollbar{
+  display: none;
+}
+
+.item-list{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
