@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: ;
 }
 
 a {
@@ -59,7 +60,7 @@ a {
 }
 
 .nav__link a:hover {
-  background-color: lightcoral;
+  background-color: rgb(255, 255, 255);
 }
 
 section{
@@ -89,6 +90,31 @@ section{
     display: none;
   }
 }
+
+
+/* Image display styles*/
+
+
+.slider-wrapper .image-list{
+  display: grid;
+  gap: 18px;
+  font-size: 0;
+  overflow-x: auto;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.slider-wrapper .image-list{
+  width: 325px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.product-container{
+  max-width: 1200px;
+  width: 95%;
+}
+
+
 
 button{
   border: none;
