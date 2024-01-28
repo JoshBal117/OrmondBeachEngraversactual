@@ -94,6 +94,10 @@ section{
 
 /* Image display styles*/
 
+.product-container {
+  max-width: 1200px;
+  width: 95%;
+}
 
 .slider-wrapper .image-list{
   display: grid;
@@ -107,11 +111,6 @@ section{
   width: 325px;
   height: 400px;
   object-fit: cover;
-}
-
-.product-container{
-  max-width: 1200px;
-  width: 95%;
 }
 
 
