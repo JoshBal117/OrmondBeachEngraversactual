@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ormond Custom Engravers</title>
+    <title>Ormond Custom Engraving</title>
     <link rel="stylesheet" href="style.css">
 
 
@@ -11,7 +11,7 @@
 <body>
         <header>
             <nav class="nav">
-                <a href="/" class="logo">Ormond Custom Engravers</a>
+                <a href="/" class="logo">Ormond Custom Engraving</a>
         
                 <div class="hamburger">
                   <span class="line"></span>
@@ -29,40 +29,48 @@
               </nav>
         </header>
 
-            <section>
-                <h2>Contact Us</h2>
-
-                <form action="#">
-                    <div class="input-box">
-                        <div class="input-field field">
-                            <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
-                        </div>
-                        <div class="input-field field">
-                            <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
-                        </div>
-                    </div>
-
-                    <div class="input-box">
-                        <div class="input-field field">
-                            <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
-                        </div>
-                        <div class="input-field field">
-                            <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
-                        </div>
-                    </div>
-
-
-                    <div class="textarea-field field">
-                        <textarea name="" id="message" cols="30" rows="10"
-                        placeholder="Your MEssage" class="item" autocomplete="off"></textarea>
-                    </div>
-
-
+       
+            
+            <div class="contact-form">
+                <h2>Send us a message</h2>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
                     <button type="submit">Send Message</button>
                 </form>
-            </section>
+            </div>
+       
 
+        
 
-<script src="app.js"></script>
 </body>
+<footer>
+    <div class="container">
+        <h1>Contact Us</h1>
+        
+        <div class="contact-info">
+            <p><strong>Store Location:</strong> 1370 N US 1, Suite 202 Ormond Beach, FL, United States</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@store.com</p>
+            <p><strong>Store Hours:</strong> Monday - Friday: 9:00 AM - 5:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed</p>
+        </div>
+        
+        <div class="social-links">
+            <p>Follow us on: <a></a>
+                <div className='social-icon-container'>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61557547265210"><img src="/images/engraving/facebook_icon.png" alt="Facebook Link Icon"></a>
+                </div>
+                <div className='social-icon-container'>
+                    <a target="_blank" href=""><img src="/images/engraving/instagram_icon.png" alt=""></a>
+                </div>
+                <div className='social-icon-container'>
+                    <img src="/images/engraving/pinterest_icon.png" alt="">
+                </div>
+
+        </div>
+
+</footer>
+<script src="app.js"></script>
 </html>

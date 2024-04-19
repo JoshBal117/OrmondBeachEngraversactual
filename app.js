@@ -22,3 +22,17 @@ pre.addEventListener('click', () => {
 nxt.addEventListener('click',()=>{
     list.scrollLeft += (itemWidth + padding)
 })
+
+
+
+
+function sendMessageToEmail() {
+  var emailAddress = "recipient@example.com";
+  var subject = "Message from Website";
+  var body = "Write your message here.";
+
+  var mailtoLink = "mailto:" + encodeURIComponent(emailAddress) + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  
+  // Open default email client with pre-filled email
+  window.location.href = mailtoLink;
+}
